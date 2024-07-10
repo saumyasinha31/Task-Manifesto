@@ -17,7 +17,7 @@ class ToDoTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(19.0),
+      padding: const EdgeInsets.only(left: 19.0, right : 19 , top:19, bottom: 9.5),
       child: Card(
         elevation: 8.0,
         shape: RoundedRectangleBorder(
@@ -32,6 +32,7 @@ class ToDoTile extends StatelessWidget {
               Text(taskName,
               style: TextStyle(
                 fontSize: 16,
+                decoration:taskCompleted? TextDecoration.lineThrough : TextDecoration.none
               ),),
 
             ],
