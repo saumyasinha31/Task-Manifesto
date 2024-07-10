@@ -1,4 +1,4 @@
-#Tue Jul 09 22:37:46 IST 2024
+#Thu Jul 11 00:23:21 IST 2024
 base.0=/home/saumya_sinha/Flutter projects/todo/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
